@@ -1,0 +1,61 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+
+}
+
+body {
+    background-color: rgb(172, 171, 172);
+    color: rgb(0, 0, 0);
+font-family: 'Times New Roman', Times, serif;
+cursor: url('https://cur.cursors-4u.net/cursors/cur-11/cur1009.cur'), auto; }
+
+/* General navigation style */
+nav .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav .menu > li {
+    position: relative;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: white;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #444;
+    min-width: 200px;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .dropdown-content li a {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
